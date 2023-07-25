@@ -17,7 +17,9 @@ body {
 }
 
 .card {
-    background: white;
+
+    background: rgb(251, 226, 254);
+    background: linear-gradient(0deg, rgba(251, 226, 254, 1) 0%, rgba(242, 241, 242, 1) 100%);
     margin: 1.5em;
     padding: 1.5em;
     border-radius: 1em;
@@ -41,5 +43,14 @@ span {
 }
 
 p {
-    margin-top:
+    margin-top: 2em;
+    font-size: .9em;
+    line-height: 1.5em;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin-top: 1em;
 }
