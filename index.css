@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
 }
@@ -10,9 +11,8 @@ body {
 .container {
     padding: 4em 2em;
     height: 50vh;
-    color: #4e2a59;
-    background: rgb(221,161,240);
-background: linear-gradient(0deg, rgba(221,161,240,1) 0%, rgba(255,255,255,1) 100%);
+    color: black;
+    background: linear-gradient(180deg, rgba(255, 243, 208, 1) 0%, rgba(230, 195, 255, 1) 100%);
     position: relative;
     z-index: 1;
 }
@@ -30,7 +30,7 @@ img {
     left: -20px;
     top: 3em;
     z-index: -1;
-    opacity: 0.4;
+    opacity: 0.2;
 }
 
 a {
@@ -39,8 +39,9 @@ a {
     padding: .6em 1em;
     margin-top: 1em;
     display: inline-block;
-    background: white;
-    color: black;
+    color: white;
     font-weight: bold;
     border-radius: .3em;
+    background: rgb(164, 92, 180);
+    background: linear-gradient(0deg, rgba(164, 92, 180, 1) 0%, rgba(76, 8, 82, 1) 100%);
 }
