@@ -5,27 +5,28 @@ body {
 }
 
 body {
-    background: linear-gradient(304deg, rgba(104, 29, 253, 1) 0%, rgba(141, 0, 222, 1) 100%);
+    background: linear-gradient(137deg, rgba(255, 255, 255, 1) 0%, rgba(237, 208, 253, 1) 100%);
     display: grid;
     justify-content: center;
+    height: 100vh;
+    place-content: center;
 }
 
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    margin-top: 3em;
 }
 
 .card {
-
-    background: rgb(251, 226, 254);
-    background: linear-gradient(0deg, rgba(251, 226, 254, 1) 0%, rgba(242, 241, 242, 1) 100%);
+    background: white;
+    background: linear-gradient(145deg, rgba(255, 255, 255, 1) 40%, rgba(239, 213, 255, 1) 100%);
     margin: 1.5em;
     padding: 1.5em;
     border-radius: 1em;
     text-align: center;
     color: #15004C;
     position: relative;
+    box-shadow: 0 2px 3px rgba(69, 0, 122, 0.2);
 }
 
 span {
